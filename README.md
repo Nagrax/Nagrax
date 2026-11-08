@@ -53,7 +53,7 @@
   <tr>
     <td width="150" align="center" valign="middle">
       <a href="https://github.com/Nagrax/EvoHarness">
-        <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f9ec.png?v8" width="96" height="96" alt="EvoHarness"/>
+        <img src="https://raw.githubusercontent.com/Nagrax/EvoHarness/main/logo.png" width="128" height="128" alt="EvoHarness"/>
       </a>
     </td>
     <td valign="middle">
@@ -90,7 +90,7 @@
   <tr>
     <td width="150" align="center" valign="middle">
       <a href="https://github.com/Nagrax/SafetyMind">
-        <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" width="96" height="96" alt="SafetyMind"/>
+        <img src="https://raw.githubusercontent.com/Nagrax/SafetyMind/main/logo.png" width="128" height="128" alt="SafetyMind"/>
       </a>
     </td>
     <td valign="middle">
