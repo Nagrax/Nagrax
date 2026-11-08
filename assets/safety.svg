@@ -31,10 +31,10 @@
       L95.95,166
       C124,132 209.8,116 256,114 Z" fill="#FCFCFD"/>
      
-      <rect x="246" y="62" width="20" height="24" rx="8" fill="#FF9F1C"/>
-      <path d="M172,136 A 84 62 0 0 1 340,136 Z" fill="#FF9F1C"/>
-      <rect x="154" y="131" width="204" height="19" rx="9.5" fill="#FF9F1C"/>
-      <ellipse cx="216" cy="98" rx="18" ry="7" fill="#FFD9A0" opacity="0.95" transform="rotate(-18 216 98)"/>
+      <rect x="244" y="48" width="24" height="28" rx="9" fill="#FF9F1C"/>
+      <path d="M152,136 A 104 76 0 0 1 360,136 Z" fill="#FF9F1C"/>
+      <rect x="132" y="131" width="248" height="21" rx="10.5" fill="#FF9F1C"/>
+      <ellipse cx="206" cy="90" rx="22" ry="8" fill="#FFD9A0" opacity="0.95" transform="rotate(-18 206 90)"/>
      <rect x="168" y="272" width="40" height="78" rx="20" fill="#0A0A0B"/>
      <rect x="304" y="272" width="40" height="78" rx="20" fill="#0A0A0B"/></g>
 </svg>
