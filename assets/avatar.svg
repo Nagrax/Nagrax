@@ -1,22 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <defs>
   <filter id="dsh" x="-30%" y="-30%" width="160%" height="170%">
-    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
   </filter>
   <filter id="glow" x="-150%" y="-150%" width="400%" height="400%">
-    <feGaussianBlur stdDeviation="11"/>
+    <feGaussianBlur stdDeviation="12"/>
   </filter>
 </defs>
 <rect width="512" height="512" rx="115" fill="#0A0A0B"/>
 
-  <g transform="rotate(-5 230 250)" opacity="1"><rect x="66" y="66" width="292" height="292" rx="66" fill="#1F2329"/></g>
-  <g transform="rotate(-2.4 265 285)" opacity="1"><rect x="104" y="104" width="292" height="292" rx="66" fill="#3A404C"/></g>
-  <g filter="url(#dsh)">
-      <rect x="110" y="110" width="292" height="292" rx="66" fill="#FCFCFD"/>
-      <g fill="#0A0A0B">
-      <rect x="168" y="173" width="42" height="150"/>
-      <rect x="302" y="173" width="42" height="150"/>
-      <polygon points="168,173 210,173 344,323 302,323"/>
+  <g transform="rotate(-7 128 120)"><rect x="10" y="10" width="316" height="316" rx="78" fill="#4A515D"/></g>
+  <g transform="rotate(-3.5 172 164)"><rect x="54" y="54" width="316" height="316" rx="78" fill="#30353E"/></g>
+  <g filter="url(#dsh)"><rect x="98" y="98" width="316" height="316" rx="78" fill="#FCFCFD"/>
+     <g fill="#0A0A0B">
+      <rect x="161" y="158" width="46" height="172"/>
+      <rect x="305" y="158" width="46" height="172"/>
+      <polygon points="161,158 207,158 351,330 305,330"/>
     </g>
-      <rect x="232" y="342" width="48" height="14" rx="7" fill="#2268F7"/></g>
+     <rect x="224" y="338" width="64" height="15" rx="7.5" fill="#2268F7"/></g>
 </svg>

@@ -1,41 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <defs>
   <filter id="dsh" x="-30%" y="-30%" width="160%" height="170%">
-    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
   </filter>
   <filter id="glow" x="-150%" y="-150%" width="400%" height="400%">
-    <feGaussianBlur stdDeviation="11"/>
+    <feGaussianBlur stdDeviation="12"/>
   </filter>
 </defs>
 <rect width="512" height="512" rx="115" fill="#0A0A0B"/>
 
-  <g transform="rotate(-5 230 250)" opacity="1"><path d="M224,96
-      C282.4,98 355.4,110 367.08,136
-      L370,252
-      C370,330 299.92,379.5 224,396
-      C148.07999999999998,379.5 78,330 78,252
-      L80.92,136
-      C92.6,110 165.6,98 224,96 Z" fill="#1F2329"/></g>
-  <g transform="rotate(-2.4 265 285)" opacity="1"><path d="M250,128
-      C308.4,130 381.4,142 393.08,168
-      L396,284
-      C396,362 325.92,411.5 250,428
-      C174.07999999999998,411.5 104,362 104,284
-      L106.92,168
-      C118.6,142 191.6,130 250,128 Z" fill="#3A404C"/></g>
-  <g filter="url(#dsh)">
-      <path d="M256,148
-      C314.4,150 387.4,162 399.08,188
-      L402,304
-      C402,382 331.92,431.5 256,448
-      C180.07999999999998,431.5 110,382 110,304
-      L112.92,188
-      C124.6,162 197.6,150 256,148 Z" fill="#FCFCFD"/>
-      
-      <rect x="247" y="98" width="18" height="20" rx="7" fill="#FF9F1C"/>
-      <path d="M180,160 A 76 56 0 0 1 332,160 Z" fill="#FF9F1C"/>
-      <rect x="164" y="156" width="184" height="17" rx="8.5" fill="#FF9F1C"/>
-      <ellipse cx="220" cy="126" rx="16" ry="6" fill="#FFD9A0" opacity="0.95" transform="rotate(-18 220 126)"/>
-      <rect x="204" y="276" width="28" height="56" rx="14" fill="#0A0A0B"/>
-      <rect x="280" y="276" width="28" height="56" rx="14" fill="#0A0A0B"/></g>
+  <g transform="rotate(-7 128 120)"><path d="M176,36
+      C222.20000000000002,38 308,54 336.05,88
+      L341,192.4
+      C341,294.4 255.2,359 176,376
+      C96.8,359 11,294.4 11,192.4
+      L15.95,88
+      C44,54 129.8,38 176,36 Z" fill="#4A515D"/></g>
+  <g transform="rotate(-3.5 172 164)"><path d="M216,75
+      C262.20000000000005,77 348,93 376.05,127
+      L381,231.4
+      C381,333.4 295.2,398 216,415
+      C136.8,398 51,333.4 51,231.4
+      L55.95,127
+      C84,93 169.8,77 216,75 Z" fill="#30353E"/></g>
+  <g filter="url(#dsh)"><path d="M256,114
+      C302.20000000000005,116 388,132 416.05,166
+      L421,270.4
+      C421,372.4 335.2,437 256,454
+      C176.8,437 91,372.4 91,270.4
+      L95.95,166
+      C124,132 209.8,116 256,114 Z" fill="#FCFCFD"/>
+     
+      <rect x="246" y="62" width="20" height="24" rx="8" fill="#FF9F1C"/>
+      <path d="M172,136 A 84 62 0 0 1 340,136 Z" fill="#FF9F1C"/>
+      <rect x="154" y="131" width="204" height="19" rx="9.5" fill="#FF9F1C"/>
+      <ellipse cx="216" cy="98" rx="18" ry="7" fill="#FFD9A0" opacity="0.95" transform="rotate(-18 216 98)"/>
+     <rect x="168" y="272" width="40" height="78" rx="20" fill="#0A0A0B"/>
+     <rect x="304" y="272" width="40" height="78" rx="20" fill="#0A0A0B"/></g>
 </svg>
