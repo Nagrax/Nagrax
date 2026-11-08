@@ -1,5 +1,5 @@
 <!-- ======================= BANNER ======================= -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2268F7,100:5EEAD4&height=200&section=header&text=Nagrax&fontColor=ffffff&fontSize=56&fontAlignY=34&desc=AI%20Agents%20%C2%B7%20Multi-Agent%20Systems%20%C2%B7%20LLM%20Engineering&descSize=18&descAlignY=58&animation=fadeIn" alt="banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2268F7,100:5EEAD4&height=200&section=header&text=Jiale%20Mou&fontColor=ffffff&fontSize=56&fontAlignY=34&desc=AI%20Agents%20%C2%B7%20Multi-Agent%20Systems%20%C2%B7%20LLM%20Engineering&descSize=18&descAlignY=58&animation=fadeIn" alt="banner"/>
 
 <!-- ======================= TYPING ======================= -->
 <p align="center">
@@ -10,7 +10,7 @@
 
 <!-- ======================= QUICK BADGES ======================= -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20Agent%20Engineering-2268F7?style=for-the-badge&logo=python&logoColor=white" alt="focus"/>
+  <img src="https://img.shields.io/badge/Tsinghua%20University-M.S.%20Candidate-660874?style=for-the-badge&logo=googlescholar&logoColor=white" alt="tsinghua"/>
   <a href="mailto:m2469630225@163.com">
     <img src="https://img.shields.io/badge/Email-m2469630225%40163.com-D14836?style=for-the-badge" alt="email"/>
   </a>
@@ -20,28 +20,17 @@
 
 ## 👋 About me
 
-嗨，我是 **Nagrax** 👋，方向是 **AI Agent 与 LLM 工程化**，一句话信条：**AI 赋能生产**——把大模型做成能在真实业务里稳定跑活的系统，而不是停在演示。
+嗨，我是 **牟佳乐 (Jiale Mou)**，清华大学硕士在读 👋
 
-目前开源维护两个项目：
+我相信 **AI 赋能生产**——把大模型做成能在真实业务里稳定跑活的系统，而不是停在演示。眼下我正全力打磨两个开源项目：**[EvoHarness](https://github.com/Nagrax/EvoHarness)**——一款透明的自进化 Agent 运行时，上下文折叠、Skills 自进化、离线评测可复算；**[SafetyMind](https://github.com/Nagrax/SafetyMind)**——面向工业安全生产的多 Agent 协同平台，意图识别、多 Agent 路由、三级记忆与人机闭环。
 
-- 🧬 **[EvoHarness](https://github.com/Nagrax/EvoHarness)** — 自进化 Agent 运行时：透明 Agent Loop、上下文折叠、Skills 自进化、离线评测。
-- 🛡️ **[SafetyMind](https://github.com/Nagrax/SafetyMind)** — 面向工业安全生产的多 Agent 协同平台：意图识别、多 Agent 路由、RAG 与三级记忆。
-
-平时折腾 Agent 评测、上下文工程、多 Agent 编排与检索增强。欢迎提 issue / PR，一起把 Agent 做成真正的生产力 ⭐
+它们都是我想长期做下去的事。如果你也对 Agent 与 LLM 工程化感兴趣，欢迎来**提 issue 和 PR**，一起把 Agent 做成真正的生产力 ⭐
 
 <!-- ======================= TECH STACK ======================= -->
 ## 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,vue,redis,docker,linux,git,vscode&perline=8" alt="stack"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCP-Client%20%2F%20Server-000000?style=flat-square" alt="mcp"/>
-  <img src="https://img.shields.io/badge/RAG-父子召回-2268F7?style=flat-square" alt="rag"/>
-  <img src="https://img.shields.io/badge/LLM--as--Judge-Eval-2EA043?style=flat-square" alt="eval"/>
-  <img src="https://img.shields.io/badge/Claude%20API-Anthropic%20%E6%A0%BC%E5%BC%8F-D97757?style=flat-square" alt="anthropic"/>
-  <img src="https://img.shields.io/badge/Chroma-Vector%20Store-FF6F00?style=flat-square" alt="chroma"/>
 </p>
 
 ---
