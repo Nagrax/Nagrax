@@ -22,7 +22,7 @@
 
 嗨，我是 **牟佳乐 (Jiale Mou)**，清华大学硕士在读 👋
 
-我相信 **AI 赋能生产**——把大模型做成能在真实业务里稳定跑活的系统，而不是停在演示。眼下我正全力打磨两个开源项目：**[EvoHarness](https://github.com/Nagrax/EvoHarness)**——一款透明的自进化 Agent 运行时，上下文折叠、Skills 自进化、离线评测可复算；**[SafetyMind](https://github.com/Nagrax/SafetyMind)**——面向工业安全生产的多 Agent 协同平台，意图识别、多 Agent 路由、三级记忆与人机闭环。
+我相信 **AI 赋能生产**——把大模型做成能在真实业务里稳定跑活的系统，而不是停在演示。眼下我正全力打磨两个开源项目：**[EvoHarness](https://github.com/Nagrax/EvoHarness)**——一款 8,000+ 行零重依赖的自进化 Agent 运行时，上下文折叠、Skills 自进化、评测证据分级可复算，最近跑通了飞书日报自迭代闭环；**[SafetyMind](https://github.com/Nagrax/SafetyMind)**——面向工业安全生产的多 Agent 问答与隐患处置平台，从意图识别到工单五阶段治理、全程留痕，发布门禁 104/104 全绿。
 
 它们都是我想长期做下去的事。如果你也对 Agent 与 LLM 工程化感兴趣，欢迎来**提 issue 和 PR**，一起把 Agent 做成真正的生产力 ⭐
 
@@ -47,9 +47,11 @@
     </td>
     <td valign="middle">
       <h3>EvoHarness · 自进化 Agent 运行时</h3>
-      <p><b>A transparent, self-evolving agent runtime — fold the context, evolve the skills, benchmark offline.</b><br/>
-      透明 Agent Loop · 三层上下文折叠 · Skills 自进化晋升 · 离线评测可复算。</p>
+      <p><b>A transparent, self-evolving agent runtime — fold the context, evolve the skills, prove it offline.</b><br/>
+      8,000+ 行零重依赖 · CLI / Web / 桌面三形态 · OpenAI / Anthropic 双协议。</p>
       <p>
+        <img src="https://img.shields.io/badge/GAIA-49.1%20Pass%401-2268F7?style=flat-square" alt="gaia"/>
+        <img src="https://img.shields.io/badge/HLE-10.7%20(n%3D75)-8A2BE2?style=flat-square" alt="hle"/>
         <img src="https://img.shields.io/github/languages/top/Nagrax/EvoHarness?style=flat-square&color=3776AB" alt="lang"/>
         <a href="https://github.com/Nagrax/EvoHarness/stargazers"><img src="https://img.shields.io/github/stars/Nagrax/EvoHarness?style=flat-square&color=5EEAD4" alt="stars"/></a>
       </p>
@@ -59,10 +61,11 @@
 
 **为什么值得关注？**
 
-- 🔍 **透明 Agent Loop** — plan → execute → verify → deliver 四阶段可观测，逐段记录 token / 折叠 / 产物，长任务 `--resume` 断点续跑。
-- 🪜 **三层上下文折叠** — episode / working / tool 分级折叠：LoCoMo 1,540 题上检索输入 token **−61.7%**、token-F1 持平。
-- 🧬 **Skills 自进化** — add / merge / revise / discard 全链路，champion 门控晋升 + experimental → staging → core 三区灰度，追加式审计可重放。
-- 📊 **评测可复算** — GAIA validation 165 题 Pass@1 **51.5%**（85/165），predictions 全量落盘可复核；折叠消融配对显著（McNemar p=0.011）。
+- 🔍 **透明 Agent Loop，不用框架** — 消息历史每个字节可控：流式 tool 参数拼装、每轮落盘、`--resume` 断点续跑；五档权限做在 runtime 代码层，不靠 prompt 劝模型。
+- 🪜 **上下文折叠** — 70% 硬阈值折叠为 episode / working / tool 三层结构化记忆，文件路径、已否定结果等硬状态绝不丢；LoCoMo 1,540 问以 **1/5 检索量**持平答对率、输入 token **−62%**。
+- 🧬 **Skills 自进化** — 证据组 / 成绩组双池、五级状态机接回运行时检索加权、三区部署灰度 + 追加式审计；SKILL.md 写坏从「静默消失」到 diff 建议一键修复。
+- 📊 **评测可复算，证据分级** — GAIA 165 题冻结口径 Pass@1 **49.1**（超时/执行错误一律计失败）、HLE n=75 有效 **10.7**；每条结论标注 A–D 证据强度，D 级禁止对外宣称。
+- 📮 **飞书日报自迭代闭环** — 把会话中的请求、承诺与解决办法整理成可追溯日报，待批回复走审批卡片，验证过的经验在限定范围自动复用——运行时自己成了第一个生产用户。
 
 <p align="center">
   <a href="https://github.com/Nagrax/EvoHarness"><b>📖 查看仓库</b></a>
@@ -83,10 +86,11 @@
       </a>
     </td>
     <td valign="middle">
-      <h3>SafetyMind · 面向工业安全生产的多 Agent 协同平台</h3>
-      <p><b>Multi-agent collaboration for industrial safety — from intent recognition to closed-loop hazard handling.</b><br/>
-      19 类安全意图识别 · 多 Agent 路由与人工升级分流 · 父子召回 RAG · 三级记忆 · 桌面 / Web / Docker 三形态。</p>
+      <h3>SafetyMind · 面向工业安全生产的多 Agent 问答与隐患处置平台</h3>
+      <p><b>Industrial safety Q&A with an auditable disposal chain — deterministic rules guard the bottom line, LLMs do the understanding.</b><br/>
+      意图识别 → 安全知识检索 → 多 Agent 路由 → SOP 注入 → 工单 / 升级 → 全程留痕。</p>
       <p>
+        <img src="https://img.shields.io/badge/Gate-104%2F104-2EA443?style=flat-square" alt="gate"/>
         <img src="https://img.shields.io/github/languages/top/Nagrax/SafetyMind?style=flat-square&color=3776AB" alt="lang"/>
         <img src="https://img.shields.io/badge/Vue-frontend-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="vue"/>
         <img src="https://img.shields.io/badge/Docker-compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="docker"/>
@@ -98,11 +102,11 @@
 
 **为什么值得关注？**
 
-- 🎯 **意图识别快而准** — 19 类安全意图基准 **2,453 条**；BGE 双模型语义原型分类器零训练：test **96.42%**（n=1,033），单条 94ms CPU / 13ms GPU。
-- ⚡ **两级级联提速** — 意图阶段 2,907ms → 47ms（GPU 20ms）≈ **62×**，低置信带自动澄清反问兜底。
-- 📋 **隐患定级有依据** — 1,515 条隐患定级依据覆盖 14 大类；分层触发闸门：HIGH+ 自动建单 / MEDIUM 确认卡 / LOW 不触发。
-- 🔄 **五阶段人机闭环** — brief → discuss → execute → feedback → accept/reject，EmployeeAgent 记忆装配 + ExpertAgent 无状态池化。
-- 🧠 **三级记忆与画像** — Redis 工作记忆 / Chroma 情景记忆 / Chroma 人员安全画像，动态 Skills 人工审批落盘。
+- 🎯 **自建意图基准，敢贴对照** — 19 类安全意图 **2,453 条**基准随仓库开源；BGE 双模型零训练分类器 test **96.4%** / 独立留出 **94.9%**，单条 94ms CPU——LLM 融合 64.6%、关键词 56.5% 等输掉的对照也原样公布。
+- 🛡️ **安全底线由确定性规则守** — 紧急度与意图置信度解耦，CRITICAL 模板先于一切澄清；隐患建单走纯规则闸门：HIGH+ 自动建单、MEDIUM 确认卡防工单贬值；「爆炸极限」不会被误判成现场爆炸。
+- 📋 **工单五阶段治理闭环** — 服务端唯一状态机 + 角色权限矩阵 + 乐观并发 409 + 不可变授权快照；验收摘要「预览哈希 → 授权导出」两步授权，同秒并发导出不覆写。
+- 🚦 **准入三档与影子评审** — `off / observe / auto` 分级放开自动化：影子双轨评审报告可见分歧与确认率，未获业务签批 `auto` 不开启——能力到位但边界诚实。
+- 🔁 **19 轮无人值守闭环** — 93 条发现修复 91、待办清零；发布门禁 **104/104** 全绿（RED 违规零容忍），403 拒绝同样落审计。
 
 <p align="center">
   <a href="https://github.com/Nagrax/SafetyMind"><b>📖 查看仓库</b></a>
