@@ -22,7 +22,7 @@
 
 嗨，我是 **牟佳乐 (Jiale Mou)**，清华大学硕士在读 👋
 
-我相信 **AI 赋能生产**，也喜欢亲手把这句话变成每天真的在跑的系统。眼下我正全力打磨两个开源项目：**[EvoHarness](https://github.com/Nagrax/EvoHarness)**——一款自进化 Agent 运行时：上下文折叠、Skills 自进化、反注水评测，主场景是飞书日报助手，把日常会话沉淀成可复用的技能；**[SafetyMind](https://github.com/Nagrax/SafetyMind)**——面向工业安全生产的多 Agent 问答与隐患处置平台：确定性规则守底线、LLM 做理解，每一步可审计。
+我相信 **AI 赋能生产**，也喜欢亲手把这句话变成每天真的在跑的系统。眼下我正全力打磨两个开源项目：**[EvoHarness](https://github.com/Nagrax/EvoHarness)**——一个面向数字员工的 AI Native 组织系统：围绕组织目标配置岗位、委派任务、审批与验收，让工作成果沉淀为有权限边界的知识与技能；**[SafetyMind](https://github.com/Nagrax/SafetyMind)**——面向工业安全生产的多 Agent 问答与隐患处置平台：确定性规则守底线、LLM 做理解，每一步可审计。
 
 这两个都是开源项目，也是我想长期做下去的事。如果你也受够了「演示惊艳、上手拉胯」的 agent——记不住上下文、攒不下经验、benchmark 注水——欢迎来**提 issue 和 PR**，一起把 Agent 做成真正的生产力工具 ⭐
 
@@ -46,12 +46,10 @@
       </a>
     </td>
     <td valign="middle">
-      <h3>EvoHarness · 自进化 Agent 运行时</h3>
-      <p><b>Skills accumulate from real work — then do the work.</b><br/>
-      8,000+ 行零重依赖 · CLI / Web / 桌面 · OpenAI / Anthropic 双协议</p>
+      <h3>EvoHarness · 数字员工与 AI Native 组织</h3>
+      <p><b>Digital employees work toward shared goals and learn from delivery.</b><br/>
+      组织与岗位 · 任务交付与验收 · 知识与 Skills 持续学习</p>
       <p>
-        <img src="https://img.shields.io/badge/GAIA-49.1%20Pass%401-2268F7?style=flat-square" alt="gaia"/>
-        <img src="https://img.shields.io/badge/HLE-10.7%20(n%3D75)-8A2BE2?style=flat-square" alt="hle"/>
         <img src="https://img.shields.io/github/languages/top/Nagrax/EvoHarness?style=flat-square&color=3776AB" alt="lang"/>
         <a href="https://github.com/Nagrax/EvoHarness/stargazers"><img src="https://img.shields.io/github/stars/Nagrax/EvoHarness?style=flat-square&color=5EEAD4" alt="stars"/></a>
       </p>
@@ -59,13 +57,11 @@
   </tr>
 </table>
 
-**为什么值得关注？**
+- **围绕目标协作**：人和数字员工承担岗位，目标拆成有负责人、依赖与验收条件的工作，Web、CLI 和飞书接入共享同一套业务状态。
+- **交付可追溯**：Worker 在授权与预算内执行，保留产物、测试和回执；支持审批、撤权、失败恢复与人工接管。
+- **从工作中学习**：来源可追溯的知识与岗位 Skills 按范围复用，候选技能经过评测再晋级，支持版本回滚。
 
-- 🧭 **一个论点** — 可靠 agent 缺的不是推理，是运行时：上下文怎么管、工具怎么放权、经验怎么沉淀、质量怎么证明。
-- 📮 **在真实日常里干活** — 主场景飞书日报助手：请求与承诺整理成可追溯日报，待发回复走审批卡片，验证过的经验自动复用。
-- 🪜 **这个量级不要向量库** — 纯文件 + BM25：LoCoMo 1,540 问以 1/5 检索量持平答对率，输入 token **−62%**。
-- 🧬 **自进化不卡冷启动** — 沉淀即上线，但只考「出生后」的成绩单；换版本必须过人，可审计可回滚。
-- 📊 **反注水评测** — 冻结口径下超时也计失败，结论标注 A–D 证据等级，跑不出的数字不写。
+核心可通过本地合成组织体验；真实渠道试点与生产验收按实际运行证据推进。
 
 <p align="center">
   <a href="https://github.com/Nagrax/EvoHarness"><b>📖 查看仓库</b></a>
